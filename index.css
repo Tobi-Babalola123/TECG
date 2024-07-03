@@ -1,0 +1,182 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+.navbar-brand {
+  text-transform: capitalize;
+  font-weight: 600 !important;
+  font-size: 25px;
+}
+.navbar-brand:hover {
+  color: rgb(56, 159, 80);
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  outline: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.nav-link:hover {
+  color: rgb(56, 159, 80);
+}
+
+#row {
+  min-height: 80vh;
+  /* gap: 2px; */
+}
+
+section.about-me {
+  background-color: rgb(56, 159, 80);
+}
+
+section.about-me h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: white;
+}
+
+section.about-me p {
+  color: white;
+  font-size: 1.3rem;
+}
+
+section.about-me img {
+  width: 350px;
+}
+
+section.goals .figure {
+  padding: 50px 20px;
+  background: white;
+  border-radius: 5px;
+  border: 0;
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.05), 0 7px 26px rgba(194, 194, 194, 0.984);
+  text-align: center;
+}
+
+section.goals .figure-title {
+  text-transform: capitalize;
+  font-weight: 500 !important;
+  font-size: 1.3rem;
+  padding-bottom: 0px;
+}
+
+section.goals .figure-body {
+  font-size: 15px;
+}
+.hngLink {
+  color: rgb(14, 31, 18);
+}
+.hngLink:hover {
+  color: rgb(56, 159, 80);
+}
+
+section.why {
+  background-color: rgba(241, 241, 241, 0.984);
+  text-align: center;
+}
+
+section.why h5 {
+  text-transform: capitalize;
+  font-size: 3rem;
+  font-weight: 650 !important;
+  padding-bottom: 2rem;
+}
+
+section.why p {
+  font-size: 1.3rem;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+section.plan {
+  background-color: white;
+  text-align: center;
+}
+
+section.plan h5 {
+  text-transform: capitalize;
+  font-size: 3rem;
+  font-weight: 650 !important;
+  padding-bottom: 2rem;
+}
+.action__plan {
+  padding-top: 4rem;
+  color: rgb(56, 159, 80);
+}
+.action_goals {
+  padding-top: 4rem;
+  color: rgb(56, 159, 80);
+}
+
+section.plan p {
+  font-size: 1.3rem;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+section.plan .d-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 30px;
+}
+section.plan .d-flex .figure {
+  padding: 50px 10px;
+  background: white;
+  border-radius: 5px;
+  border: 0;
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.05), 0 7px 26px rgba(194, 194, 194, 0.984);
+  text-align: center;
+}
+
+section.plan .d-flex .figure .figure-title {
+  text-transform: capitalize;
+  font-weight: 500 !important;
+  font-size: 1.3rem;
+  padding-bottom: 0px;
+}
+
+section.plan .d-flex .figure .figure-body p {
+  font-size: 15px;
+}
+
+footer {
+  background-color: rgba(241, 241, 241, 0.984);
+}
+
+@media (max-width: 767.98px) {
+  section.about-me img {
+    width: -webkit-fill-available;
+  }
+
+  section.about-me h1 {
+    font-size: 2.5rem;
+    padding-top: 10px;
+  }
+
+  section.why h5 {
+    font-size: 2rem;
+  }
+
+  section.plan h5 {
+    font-size: 2rem;
+  }
+
+  section.plan p {
+    max-width: 100%;
+  }
+
+  section.plan .d-flex {
+    flex-wrap: wrap;
+  }
+}
