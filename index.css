@@ -39,7 +39,7 @@ section.about-me {
 }
 
 section.about-me h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 600;
   text-transform: capitalize;
   color: white;
@@ -59,6 +59,7 @@ section.goals .figure {
   background: white;
   border-radius: 5px;
   border: 0;
+  margin-bottom: 1rem;
   box-shadow: 0 6px 0 rgba(0, 0, 0, 0.05), 0 7px 26px rgba(194, 194, 194, 0.984);
   text-align: center;
 }
